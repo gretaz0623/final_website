@@ -1,0 +1,696 @@
+
+
+.w1220{
+	margin: 0 auto;
+    width: 1220px;
+    background-color: black;
+
+}
+
+#wrapper {
+    height: 4000px;
+    background-color: rgb(239, 188, 91);
+}
+
+
+.bgw {
+	left: 5%; 
+	right: 5%;
+    
+}
+
+#main-scenes {
+}
+
+.islandP{
+	float: left;
+    left: 1%;
+    top: -1%;
+    position: absolute;
+    z-index: 0;
+    width: 710px;
+    height: auto;
+    animation-name: floating;
+	animation-duration:2s;
+	animation-direction:alternate;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-out;
+}
+
+.title{
+	width: 343px;
+    height: auto;
+    float: right;
+    right: 478px;
+    top: 59px;
+    position: absolute;
+    z-index: 10;
+    display: block;
+}
+
+.peopleIsland{
+	width: 1009px;
+    height: auto;
+    float: right;
+    right: 0;
+    top: 376px;
+    position: absolute;
+    z-index: 10;
+    display: block;
+}
+
+.floating01{
+	width: 100px;
+    height: auto;
+    float: right;
+    right: 1310px;
+    top: 556px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+.floating02{
+	    width: 50px;
+    height: auto;
+    float: right;
+    right: 1630px;
+    top: 706px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+.floating03{
+	width: 80px;
+    height: auto;
+    float: right;
+    right: 1300px;
+    top: 256px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+.floating04{
+	    width: 100px;
+    height: auto;
+    float: right;
+    right: 1680px;
+    top: 586px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+.floating05{
+	width: 60px;
+    height: auto;
+    float: right;
+    right: 1250px;
+    top: 496px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+#islandStory{
+	text-align: left;
+    margin-left: auto;
+    padding-top: 180px;
+    padding-left: 9px;
+    margin-right: auto;
+    width: 32%;
+    color: #000410;
+    letter-spacing: 0.06em;
+    font-size: 28px;
+    line-height: 38px;
+
+}
+
+#islandStory2{
+	text-align: left;
+    margin-left: auto;
+    padding-top: 84px;
+    padding-left: 9px;
+    margin-right: auto;
+    width: 32%;
+    color: #000410;
+    letter-spacing: 0.06em;
+    font-size: 28px;
+    line-height: 38px;
+
+}
+
+
+#seaStory{
+	text-align: left;
+    margin-left: 168px;
+    padding-top: 459px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 21%;
+    color: #efbc5b;
+    letter-spacing: 0.06em;
+    font-size: 30px;
+    line-height: 38px;
+    position: absolute;
+}
+
+#boxStory{
+	margin-left: 50px;
+    margin-top: 416px;
+    width: 313px;
+    height: 434px;
+    border: rgba(239, 188, 91, 0.3);
+    border-style: dotted;
+    z-index: 10;
+    border-width: 3px;
+    position: absolute;
+}
+
+#seaStory2{
+	text-align: left;
+    margin-left: 1385px;
+    margin-top: 231px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 23%;
+    color: #efbc5b;
+    letter-spacing: 0.06em;
+    font-size: 30px;
+    line-height: 38px;
+    z-index: 10;
+    position: absolute
+}
+
+#boxStory2{
+	margin-left: 1397px;
+    margin-top: 814px;
+    width: 426px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    z-index: -10;
+}
+
+
+#second-scenes{
+    position: absolute;
+    top: 1042px;
+    left: 0;
+    width: 100%;
+    height: 1080px;
+    background: rgb(50, 63, 109);
+    box-shadow: 0px 10px 30px   rgba(57, 71, 118, 0.4);
+	z-index: 200;
+}
+
+.floatingF{
+	width: 500px;
+    left: 40%;
+    top: 473px;
+    z-index: 300;
+    position: absolute;
+    animation-name: nudge;
+	animation-duration:4s;
+	animation-direction:alternate;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-out;
+	padding-left: 3px;
+
+}
+.floatingF2{
+	width: 500px;
+    left: 33%;
+    top: 46px;
+    z-index: 200;
+    position: absolute;
+    animation-name: nudge2;
+	animation-duration:4s;
+	animation-direction:alternate;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-out;
+}
+
+.floatingSoual{
+	width: 131px;
+    left: 29%;
+    top: 197px;
+    z-index: 301;
+    position: absolute;
+    animation-name: soul;
+	animation-duration:2s;
+	animation-direction:alternate;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-in-out;
+
+}
+.floatingSoual02{
+    width: 131px;
+    left: 62%;
+    top: 348px;
+    z-index: 301;
+    position: absolute;
+    animation-name: soul2;
+	animation-duration:2s;
+	animation-direction:reverse;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#third-scenes{
+	width:1920px;
+	left: 0; 
+	top: 2056px;
+	z-index: 104;
+	position:absolute;
+	padding:190px,30px;
+}
+
+#title2{
+	width: 769px;
+    height: auto;
+    float: right;
+    right: 568px;
+    top: 173px;
+    position: absolute;
+    z-index: 10;
+    display: block;
+}
+
+#geneImage {
+    width: 131px;
+    height: auto;
+    margin-left: 24%;
+    margin-top: 20%;
+    z-index: 105;
+    position: absolute;
+}
+
+#geneImage02 {
+    padding: 10px;
+    z-index: 97;
+    margin-left: 19%;
+    margin-top: 14%;
+    display: inline-block;
+    position: absolute;
+}
+
+#whatIsGene{
+	text-align: center;
+    margin-left: 651px;
+    margin-top: 419px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 31%;
+    color: #394776;
+    letter-spacing: 0.06em;
+    font-size: 28px;
+    line-height: 38px;
+    z-index: 10;
+    position: absolute;
+}
+
+#backImage{
+	background-color: white;
+    width: 880px;
+    height: 300px;
+    margin-left: 521px;
+    margin-top: 384px;
+    padding-left: -103px;
+    position: absolute;
+    box-shadow: 27px 25px 0px rgb(0, 4, 16);
+}
+
+#whatIsGene2{
+	text-align: center;
+    margin-left: 658px;
+    margin-top: 806px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 31%;
+        color: #000410;
+    letter-spacing: 0.06em;
+    font-size: 28px;
+    line-height: 38px;
+    z-index: 10;
+    position: absolute;
+
+}
+
+#backImage2{
+    width: 880px;
+    height: 300px;
+    margin-left: 521px;
+    margin-top: 767px;
+    padding-left: -103px;
+    border: rgb(255, 255, 255);
+    border-style: dotted;
+    z-index: 7;
+    border-width: 3px;
+    position: absolute;
+}
+
+#fourth-scenes{
+	width:1920px;
+	left: 0; 
+	top: 3196px;
+	z-index: 120;
+	position:absolute;
+}
+
+.geneBg{
+	width:1920px;
+	height: auto;
+	left: 0; 
+}
+
+.bodyStorage{
+    display: inline-block;
+    width: 50%;
+
+}
+
+#stomach {
+    padding: 10px;
+    z-index: 97;
+    margin-left: 62%;
+    margin-top: 13%;
+    display: inline-block;
+    position: absolute;
+    animation-name: shake;
+	animation-duration:1s;
+	animation-direction:alternate;
+	animation-play-state:running;
+	animation-timing-function: ease-in;
+	animation-iteration-count:infinite;
+}
+
+#dad {
+    padding: 10px;
+    z-index: 97;
+    margin-left: 4%;
+    margin-top: 30%;
+    display: inline-block;
+    position: absolute;
+}
+
+#crystal {
+    padding: 10px;
+    z-index: 104;
+    margin-left: 84%;
+    margin-top: 23%;
+    display: inline-block;
+    position: absolute;
+}
+
+
+#boxes {
+    padding: 10px;
+    z-index: 100;
+    margin-left: 69%;
+    margin-top: 24%;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+
+#planet {
+    padding: 10px;
+    z-index: 106;
+    margin-left: 74%;
+    margin-top: 30%;
+    display: inline-block;
+    position: absolute;
+}
+
+.title3{
+	width: 1113px;
+    height: auto;
+    float: left;
+    left: 388px;
+    top: 131px;
+    position: absolute;
+    z-index: 190;
+    display: block;
+}
+
+.geneBg{
+	width:1920px;
+	height: auto;
+	left: 0; 
+}
+
+#junkFood{
+	padding: 10px;
+    z-index: 106;
+    width: 492px;
+    margin-left: 6%;
+    margin-top: -40%;
+    display: inline-block;
+    position: absolute;
+    animation-name: rotate_A;
+	animation-duration:2s;
+	animation-direction:linear;;
+	animation-play-state:paused;
+	animation-timing-function: ease-out;
+	padding-left: 3px;
+	opacity:0.8;
+
+}
+#junkFood:hover {
+	opacity:1;
+    animation-play-state: running;
+        animation-iteration-count: infinite;
+
+}
+
+#vegetable{
+	padding: 10px;
+    z-index: 106;
+    margin-left: 36%;
+    margin-top: -40%;
+    display: inline-block;
+    width: 492px;
+    height: auto;
+    position: absolute;
+    animation-name: rotate_A;
+	animation-duration:2s;
+	animation-direction:linear;
+	animation-play-state:paused;
+    animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	padding-left: 3px;
+	opacity:0.8;
+
+}
+
+#vegetable:hover {
+	opacity:1;
+    animation-play-state: running;
+}
+
+#runExercise{
+	padding: 10px;
+    width: 492px;
+    height: auto;
+    z-index: 106;
+    margin-left: 64%;
+    margin-top: -40%;
+    display: inline-block;
+    position: absolute;
+    animation-name: rotate_A;
+	animation-duration:2s;
+    animation-iteration-count: infinite;
+	animation-direction:linear;
+	animation-play-state:paused;
+	animation-timing-function: ease-out;
+	padding-left: 3px;
+	opacity:0.8;
+}
+
+#runExercise:hover {
+	opacity:1;
+    animation-play-state: running;
+}
+
+#lowCarbon{
+	display: none;
+    text-align: left;
+    margin-left: 232px;
+    margin-top: -265px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 13%;
+    color: #323f6d;
+    letter-spacing: 0.06em;
+    font-size: 38px;
+    line-height: 38px;
+    z-index: 10;
+    position: absolute;
+}
+
+#highPortein{
+	display: none;
+    text-align: center;
+    margin-left: 782px;
+    margin-top: -260px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 18%;
+    color: #323f6d;
+    letter-spacing: 0.06em;
+    font-size: 38px;
+    line-height: 38px;
+    z-index: 10;
+    position: absolute;
+
+
+}
+
+#moreExercise{
+	display: none;
+    text-align: right;
+    right: 0px;
+    top: -285px;
+    left: -284px;
+    float: right;
+    width: 17%;
+    color: #323f6d;
+    letter-spacing: 0.06em;
+    font-size: 38px;
+    line-height: 38px;
+    z-index: 10;
+    position: relative;
+}
+
+#ideaOfLife{
+       text-align: center;
+    margin-left: 70px;
+    margin-top: -848px;
+    padding-left: -103px;
+    margin-right: auto;
+    width: 91%;
+    color: rgba(0, 4, 16, 0.64);
+    letter-spacing: 0.06em;
+    font-size: 38px;
+    line-height: 60px;
+    z-index: 10;
+    position: absolute;
+
+}
+
+footer a{
+    color: #efbc5b;
+    margin-left: 15%;
+    top: 13px;
+    width: 100%;
+    height: 241px;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+
+}
+
+a:hover{
+	color: #F1D5EF;	
+}
+
+.active {
+	color: #F1D5EF
+}
+
+@keyframes rotate_A{
+ from {
+    transform: scale(1, 1);
+  }
+
+  10%, 20% {
+  transform: scale(.9, .9) rotate3d(0, 0, 1, 6deg);
+  }
+
+  30%, 50%, 70%, 90% {
+ 
+    transform: scale(1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale(1.1, 1.1) rotate3d(0, 0, 1, 6deg);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0)  );
+}
+50% {
+    transform: translate(5px, 0) ;
+}
+80% {
+    transform: translate(-4px, 0) ;
+}}
+
+@keyframes nudge2 {
+  0%, 100% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(-4px, 0);
+}
+80% {
+    transform: translate(6px, 0);
+}}
+
+@keyframes soul {
+  0%, 100% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.6;
+}
+80% {
+    opacity: 0.9;
+}}
+
+@keyframes soul2 {
+  0%, 100% {
+    opacity: 1;
+}
+30% {
+    opacity: 0.7;
+}
+70% {
+    opacity: 0.5;
+}}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translate(0, 0) ;
+}
+25% {
+    transform: translate(0, 3px) ;
+}
+75% {
+    transform: translate(0, -3px) ;
+}}
+/*@keyframes shake {
+  0%, 100% {
+   transform: rotate(0deg);
+}
+30% {
+    transform: rotate(2deg) ;
+}60% {
+    transform: rotate(-2deg) ;
+}
+}*/
+
